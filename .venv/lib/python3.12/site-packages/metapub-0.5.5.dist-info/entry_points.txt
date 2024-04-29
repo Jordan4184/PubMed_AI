@@ -1,0 +1,3 @@
+[console_scripts]
+convert = metapub.convert:main
+pubmed_article = metapub.pubmedfetcher_cli:main
