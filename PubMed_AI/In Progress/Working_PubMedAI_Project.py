@@ -56,5 +56,3 @@ if st.button('Fetch and Summarize'):
     for pmid, summary in summaries.items():
         st.write(f"Title: {articles[pmid]['title']}")
         st.write(f"PMID {pmid}: {summary}\n")
-
-#   streamlit run "PubMed_AI/In Progress/Working_PubMedAI_Project.py"
