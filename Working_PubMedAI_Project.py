@@ -57,9 +57,6 @@ if st.button('Fetch and Summarize'):
         st.write(f"Title: {articles[pmid]['title']}")
         st.write(f"PMID {pmid}: {summary}\n")
 
-<<<<<<< HEAD
-#   streamlit run "PubMed_AI/In Progress/Working_PubMedAI_Project.py"
-=======
 
 #Functionality Changes: 
 
@@ -75,4 +72,3 @@ if st.button('Fetch and Summarize'):
 #Ideally, would like to have the function summarize the entire paper not the abstract
 #Would like to add a function to display the full article
 #Would like to add a function to display the full article in a new tab
->>>>>>> 96053b9 (Reinitialized repository in the correct directory)
