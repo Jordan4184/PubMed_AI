@@ -69,7 +69,7 @@ The focus can be "Conclusion", "Methodology", "Results", or "General".
 
 ### License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
 
 ### Acknowledgments
 Streamlit
