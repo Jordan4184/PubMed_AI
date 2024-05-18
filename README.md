@@ -67,6 +67,20 @@ The focus can be "Conclusion", "Methodology", "Results", or "General".
 
 **Display:** The app displays the article titles and their respective summaries.
 
+## Future Enhancements
+
+- Need to reformat streamlit app for headings
+- Need to add more options for the summary focus
+- Need to add a function to save the summaries to a file
+- Need to add a function to display the saved summaries
+- Need to add a function to delete the saved summaries
+- Need to add a function to search for a specific summary
+- Need to add a function to display the specific summary
+- Want to make it more user friendly
+- Want to add more error handling
+- Ideally, would like to have the function summarize the entire paper not the abstract
+- Would like to add a function to display the full article
+
 ### License
 
 This project is licensed under the MIT License.
