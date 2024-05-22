@@ -81,10 +81,6 @@ The focus can be "Conclusion", "Methodology", "Results", or "General".
 - Ideally, would like to have the function summarize the entire paper not the abstract
 - Would like to add a function to display the full article
 
-### License
-
-This project is licensed under the MIT License.
-
 ### Acknowledgments
 Streamlit
 OpenAI
