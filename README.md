@@ -82,6 +82,6 @@ The focus can be "Conclusion", "Methodology", "Results", or "General".
 - Would like to add a function to display the full article
 
 ### Acknowledgments
-Streamlit
-OpenAI
-Metapub
+- Streamlit
+- -OpenAI: For providing code body and architecture, as well as integration to streamlit
+- Metapub
