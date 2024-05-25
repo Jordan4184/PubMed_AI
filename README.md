@@ -83,5 +83,5 @@ The focus can be "Conclusion", "Methodology", "Results", or "General".
 
 ### Acknowledgments
 - Streamlit
-- -OpenAI: For providing code body and architecture, as well as integration to streamlit
+- OpenAI: For providing code body and architecture, as well as integration to streamlit
 - Metapub
