@@ -14,7 +14,7 @@ if NCBI_API_KEY is None or OPEN_AI_API_KEY is None:
 
 client = OpenAI(api_key=OPEN_AI_API_KEY)
 
-keyword = st.text_input("Enter the keyword search for PubMed AI:")
+keyword = st.text_input("Enter the search for PubMed AI:")
 num_of_articles = st.number_input("How many articles would you like to read?", min_value=1, step=1)
 summary_focus = st.selectbox("Choose the focus for the summary:", ["Conclusion", "Methodology", "Results", "General"])
 
@@ -57,4 +57,18 @@ if st.button('Fetch and Summarize'):
         st.write(f"Title: {articles[pmid]['title']}")
         st.write(f"PMID {pmid}: {summary}\n")
 
-#   streamlit run "PubMed_AI/In Progress/Working_PubMedAI_Project.py"
+
+#Functionality Changes: 
+
+#Need to reformat streamlit app for headings
+#Need to add more options for the summary focus
+#Need to add a function to save the summaries to a file
+#Need to add a function to display the saved summaries
+#Need to add a function to delete the saved summaries
+#Need to add a function to search for a specific summary
+#Need to add a function to display the specific summary
+#Want to make it more user friendly
+#Want to add more error handling
+#Ideally, would like to have the function summarize the entire paper not the abstract
+#Would like to add a function to display the full article
+#Would like to add a function to display the full article in a new tab
